@@ -1,0 +1,55 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test coverage
+coverage*.out
+coverage.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.log
+tmp/
+
+# Binary
+goclaw
+
+# Config (use config.yaml.example instead)
+config.yaml
+
+# Runtime data
+.goclaw/
+extensions_config.json
+**/memory.json
+
+# Skills directory (user data)
+skills/*
+!skills/README.md
+
+# Docs build artifacts
+docs/node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/package-lock.json
+
+# Frontend (web/) build artifacts
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/pnpm-lock.yaml
+
